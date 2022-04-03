@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProvidersApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProviderApi.Controllers.ProvidersController.GetProvidersAsync(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Gets a collection of paged providers with optional query parameters
+            </summary>
+            <param name="region"></param>
+            <param name="inspectionDirectorate"></param>
+            <param name="page"></param>
+            <param name="perPage"></param>
+            <response code="200">Providers were returned successfully</response> 
+        </member>
+        <member name="M:ProviderApi.Controllers.ProvidersController.GetProviderAsync(System.String)">
+            <summary>
+            Get provider with providerId
+            </summary>
+            /// <param name="providerId"></param>
+            <response code="200">Provider was returned successfully</response> 
+        </member>
+    </members>
+</doc>
